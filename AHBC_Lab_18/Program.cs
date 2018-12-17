@@ -45,6 +45,7 @@ namespace AHBC_Lab_18
             Console.ReadKey();
         }
 
+		// James -- I would put this in a sepreate class and file honestly. 
         public static void Frequency(int[] numberArray)
         {
             int arrayCount = numberArray.Max();
@@ -70,6 +71,7 @@ namespace AHBC_Lab_18
             }
         }
 
+		// James -- Same as the last method, different file and different class.
         public static void DictionaryFreq(int[] numberArray)
         {
             Dictionary<int, int> list = new Dictionary<int, int>();
